@@ -129,14 +129,3 @@ def get_question_answer(video_id: str, session_id: str, question: str) -> str:
     except Exception as e:
         print(e)
         return "Unable to get answer for the question. Please try again later."
-
-    # "faiss-cpu>=1.14.2",
-    # "fastapi>=0.136.3",
-    # "langchain>=1.3.2",
-    # "langchain-community>=0.4.2",
-    # "langchain-core>=1.4.0",
-    # "langchain-faiss>=0.1.1",
-    # "langchain-openai>=1.2.2",
-    # "langchain-text-splitters>=1.1.2",
-    # "uvicorn>=0.48.0",
-    # "youtube-transcript-api>=1.2.4",
